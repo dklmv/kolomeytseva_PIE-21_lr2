@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Задание №2</title>
+  </head>
+  <body>
+    <script>
+      var A = parseFloat(prompt("Введите А"));
+      console.log("Изнaчальное значение А = " + A);
+      var B = parseFloat(prompt("Введите B"));
+      console.log("Изнaчальное значение B = " + B);
+
+      if (A != B) {
+        console.log("A и B не равны");
+        let result = A + B;
+        A = result;
+        B = result;
+        console.log("Новое значение A = " + A);
+        console.log("Новое значение B = " + B);
+      } else {
+        console.log("A и B равны");
+        A = 0;
+        console.log("Новое значение A = " + A);
+        B = 0;
+        console.log("Новое значение B = " + B);
+      }
+    </script>
+  </body>
+</html>

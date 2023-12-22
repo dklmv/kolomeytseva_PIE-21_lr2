@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Задание №4</title>
+  </head>
+  <body>
+    <script>
+      var x = parseFloat(prompt("Введите X:"));
+      var a = 6.72;
+      var b = 4.85;
+
+      switch (x) {
+        case 1:
+          y = 1 + Math.sqrt(a + Math.abs(x));
+
+          console.log("Значение функции 1 = " + y);
+          break;
+        case 7:
+          y = y = 2 + a * x ** 2 + Math.E ** 2;
+
+          console.log("Значение функции 2 = " + y);
+          break;
+        case 5:
+          y = x * Math.sqrt(1 + b * Math.log(a ** 2) * x);
+
+          console.log("Значение функции 3 = " + y);
+          break;
+        default:
+          console.log("Введено неверное значение!");
+      }
+    </script>
+  </body>
+</html>
